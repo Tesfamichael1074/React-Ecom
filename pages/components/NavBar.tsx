@@ -15,19 +15,28 @@ function NavBar() {
     }
 
   return (
-    <nav className=" fixed w-screen px-2 sm:px-4 py-2.5 bg-gray-300 dark:bg-gray-900 shadow-md dark:shadow-slate-700/30">
+    <nav className=" w-screen px-2 sm:px-4 py-2.5  bg-gray-900 shadow-md dark:shadow-slate-700/30">
             <div className="container flex flex-wrap justify-between items-center mx-auto">
               <a href="https://flowbite.com/" className="flex items-center">
-                  <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Addis-Ecom</span>
+                  <span className="self-center text-xl font-semibold whitespace-nowrap text-white">Addis-Ecom</span>
               </a>
               
               <div className="hidden w-full md:block md:w-auto" id="navbar-default">
-                <ul className="flex flex-col bg-gray-300 dark:bg-gray-900 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0">
+                <ul className="flex flex-col bg-gray-900 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0">
                   <li>
-                    <a href="#" className="block p-4 mt-2 py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white" aria-current="page">Home</a>
+                    <a href="#" className="block p-4 mt-2 py-2 pr-4 pl-3 text-white  rounded md:bg-transparent  md:p-0 " aria-current="page">Home</a>
                   </li>
                   <li>
-                    <a href="#" className="block p-4 mt-2 py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+                    <a href="#" className="block p-4 mt-2 py-2 pr-4 pl-3  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Men</a>
+                  </li>
+                  <li>
+                    <a href="#" className="block p-4 mt-2 py-2 pr-4 pl-3  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Woman</a>
+                  </li>
+                  <li>
+                    <a href="#" className="block p-4 mt-2 py-2 pr-4 pl-3  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Sell on Addis-Ecom</a>
+                  </li>
+                  <li>
+                    <a href="#" className="block p-4 mt-2 py-2 pr-4 pl-3  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
                   </li>
                   <li>
                     <label htmlFor="default-toggle" className="inline-flex mt-2 relative items-center cursor-pointer">
@@ -36,7 +45,7 @@ function NavBar() {
                     </label>
                   </li>
                   <li>
-                    <button type="button" className="text-white dark:bg-gray-600 bg-gray-900 hover:bg-gray-800 focus:ring-4 focus:ring-gray-300 font-medium rounded-sm text-sm px-5 py-2.5 mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800">
+                    <button type="button" className="text-white bg-gray-600 hover:bg-gray-800 focus:ring-4 focus:ring-gray-300 font-medium rounded-sm text-sm px-5 py-2.5 mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800">
                       Sign in 
                     </button>
                   </li>

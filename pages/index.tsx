@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import LandingPage from './components/landing_page/LandingPage'
 import NavBar from './components/NavBar'
 
 const Home: NextPage = () => {
@@ -15,14 +16,9 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className='h-screen' >
+      <main className='h-screen flex flex-col' >
         <NavBar />
-        <div className="h-full bg-green-200 w-screen ">
-          ww
-        </div>
-        <div className="h-full bg-green-900 w-screen ">
-          ww
-        </div>
+        <LandingPage />
       </main>
 
     </div>
