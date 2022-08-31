@@ -4,8 +4,7 @@
 @tailwind utilities;
 
 
-
-html,
+/* html,
 body {
   padding: 0;
   margin: 0;
@@ -20,9 +19,9 @@ a {
 
 * {
   box-sizing: border-box;
-}
+} */
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: light;
   }
@@ -30,4 +29,4 @@ a {
     color: dark;
     background: white;
   }
-}
+} */
